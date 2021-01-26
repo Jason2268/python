@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ the_title }}</title> <!--the_title为变量值，可修改-->
+<link rel="stylesheet" href="static/index.css" /> <!--调用样式-->
+</head>
+<body>
+<div class="logo_image"></div>
+<div class="h1" >
+<h1 class="title">欢迎来到zwb website</h1> <!--title-->
+<h3>下面将为大家提供一些api调用功能</h3>
+<p><h3>首先是天气查询功能:</h3></p>
+</div>
+<img src="https://www.logosc.cn/uploads/resources/2018/11/26/1543210848_thumb.jpg" width="2100px" , height="800px"，> <!--banner 图像链接-->
+
+<div class="weather">
+<form method="post" action="/tianqi"> <!--执行命令-->
+<p>请输入城市编码<input type="text" name="tq"></p>         <!--输入文本框-->
+<p><button type="submit">点击刷新获取天气信息</button></p>  <!--按钮功能-->
+</form>
+</div>
+</form>
+
+<div class="viewlog"> <!--同上-->
+<form action="/viewlog">
+<button type="submit">查看日志</button> <!--同上-->
+</form>
+</div>
+
+</div>
+</body>
+</html>

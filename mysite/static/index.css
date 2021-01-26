@@ -1,0 +1,139 @@
+body {
+			margin: 0;
+			padding: 0;
+		}
+		ul {
+			list-style: none;
+		}
+		.tabbar {
+			background-color: #fff;
+			height: 57px;
+		}
+		.tabbar ul {
+			height: 45px;
+			margin-left: 785px;
+			padding-top: 16px;
+		}
+		.tabbar li {
+			float: left;
+			border-right: 1px dashed #39c;
+			width: 82px;
+			height: 14px;
+			line-height: 14px;
+			text-align: center;
+			color: #39c;
+		}
+		ul li:last-child {
+  			border-right: none;
+		}
+
+		.banner img {
+			margin-left: -109px;
+
+
+		}
+		.desc {
+			background-color: #f8f8f8;
+			border-bottom: 1px solid #ececec;
+			position: relative;
+		}
+		#title {
+			margin-left: 325px;
+			height: 47px;
+			font-size: 10px;
+			line-height: 47px;
+			text-align：center；
+
+		}
+		.ad {
+			color: #f00;
+			font-size: 10px;
+			position: absolute;
+			top: 14px;
+			right: 326px;
+		}
+		.detile {
+			height: 266px;
+			background-color: #f6f6f6;
+		}
+		.detile-d {
+			width: 955px;
+			height: 233px;	
+			margin: 0 auto;
+			background-color: #fff;
+			position: relative;
+			top: 17px;
+		}
+		.detile-d1, .detile-d2 {
+			float: left;
+			width: 477.5px;
+			height: 233px;
+			position: relative;
+		}
+		.detile-d1 ul {
+			padding-left: 16px;
+		}
+		.detile-d1 ul li {
+			float: left;
+			border-right: 1px dashed #39c;
+			width: 75px;
+			height: 24px;
+			text-align: center;
+			line-height: 24px;
+		}
+		.detile-d2 ul li {
+			float: left;
+			border-right: 1px dashed #39c;
+			width: 75px;
+			height: 24px;
+			text-align: center;
+			line-height: 24px;
+		}
+		.detile-d1 ul li:last-child,.detile-d2 ul li:last-child {
+			border-right: none;
+			margin-left: 8px;
+			color: #A91653;
+		}
+		.button1 {
+			position: absolute;
+			left: 421px;
+			top: 15px;
+		}
+		.button2 {
+			position: absolute;
+			left: 404px;
+			top: 15px;
+		}
+		.pic1 {
+			padding-top: 40px;
+			margin-left: 16px;
+			width: 211px;
+			height: 142px;
+		}
+		.pic1 img {
+			width: 100%;
+			height: 142px;
+		}
+		.introduce {
+			position: absolute;
+			font-size: 10px;
+			left: 250px;
+			top: 50px;
+		}
+		.photo {
+			width: 430px;
+			height: 117px;
+			display: flex;
+			padding-top: 33px;
+			margin-left: 43px;
+			overflow: hidden;
+		}
+		.photo img {
+			width: 138px;
+			height: 117px;
+		}
+		h2 {
+			position: absolute;
+			top: 0px;
+			left: 278px;
+		}

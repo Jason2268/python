@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ the_title }}</title> <!--the_title为变量值，可修改-->
+<link rel="stylesheet" href="static/index.css" /> <!--调用样式-->
+</head>
+<body>
+<div class="logo_image"></div>
+<div class="h1" >
+<h1 class="title">接着，地理编码定位</h1> <!--title-->
+</div>
+<img src="https://www.logosc.cn/uploads/resources/2018/11/26/1543210848_thumb.jpg" width="2100px" , height="800px"，><!--banner 图像链接-->
+
+<div class="weather">
+<form method="post" action="/tianqi"> <!--执行命令-->
+<div class="function">
+<p>城市:<label class="weather_r">{{city}}</label></p>              <!--输出内容-->
+<p>天气:<label class="weather_r">{{weather}}</label></p>           <!--输出内容-->    
+<p>温度:<label class="weather_r">{{temperature}}</label></p>       <!--输出内容-->
+<p>风向:<label class="weather_r">{{winddirection}}</label></p>     <!--输出内容-->
+<p>风力:<label class="weather_r">{{windpower}}</label></p>         <!--输出内容-->
+<p>报告时间:<label class="weather_r">{{reporttime}}</label></p>     <!--输出内容-->
+</form>
+</div>
+</form>
+
+<div class="dili">
+<form method="post" action="/dili"> <!--同上-->
+<p>请输入详细地址<input type="text" name="dz"></p>        <!--输入文本框-->
+<p>请输入城市<input type="text" name="cs"></p>            <!--输入文本框-->
+<p><button type="submit">点击获取地理编码信息</button></p> <!--按钮功能-->
+</form>
+</div>
+</form>
+
+<div class="viewlog"> 
+<form action="/viewlog"> <!--同上-->
+<button type="submit">查看日志</button> <!--按钮功能-->
+</form>
+</div>
+
+</div>
+</body>
+</html>

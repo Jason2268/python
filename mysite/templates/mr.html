@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ the_title }}</title>  <!--the_title为变量值，可修改-->
+<link rel="stylesheet" href="static/index.css" /> <!--调用样式-->
+</head>
+<body>
+<div class="logo_image"></div>
+<div class="h1">
+<h1 class="title">名人分析结果</h1> <!--title-->
+</div>
+<img src="https://www.logosc.cn/uploads/resources/2018/11/26/1543210848_thumb.jpg" width="2100px" , height="800px"，> <!--banner 图像链接-->
+
+
+<table>
+<p class="h1"><b>名人分析</b></p>
+<form method="post" action="/person">  <!--执行命令-->
+<div class="function">
+<p class="r">分析结果:<label><b>{{person}}</b></label></p>  <!--输出内容-->
+<p class="r">准确度:<label><b>{{confidence2}}</b></label></p>  <!--输出内容-->
+<div class="img3">
+<img src="{{img_url3}}">  <!--输出内容-->
+</div>
+</div>
+</form>
+</table>
+
+
+
+
+
+
+<div class="viewlog">   <!--执行命令-->
+<form action="/viewlog">   
+<button type="submit">查看日志</button>  <!--按钮功能-->
+</form>
+</div>
+</body>
+</html>

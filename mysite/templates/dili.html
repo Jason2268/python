@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ the_title }}</title> <!--the_title为变量值，可修改-->
+<link rel="stylesheet" href="static/index.css" /> <!--调用样式-->
+</head>
+<body>
+<div class="logo_image"></div>
+<div class="h1">
+<h1 class="title">然后是ip定位功能</h1> <!--title-->
+</div>
+<img src="https://www.logosc.cn/uploads/resources/2018/11/26/1543210848_thumb.jpg" width="2100px" , height="800px"，> <!--banner 图像链接-->
+
+<div class="dili">
+<form method="post" action="/dili"> <!--执行功能-->
+<div class="function">
+<p>地理编码:<label class="weather_r">{{city}}</label></p> <!--输出内容-->
+</div>
+</form>
+</div>
+</form>
+
+<div class="ipdinweis">  <!--同上-->
+<form method="post" action="/ipdinweis">
+<p>请放入ip号码<input type="text" name="ips"></p> <!--输入文本框-->
+<p><button type="submit">点击获取ip定位信息</button></p> <!--按钮功能-->
+</form>
+</div>
+</form>
+
+<!--同上-->
+<div class="viewlog">
+<form action="/viewlog">
+<button type="submit">查看日志</button>
+</form>
+</div>
+</body>
+</html>

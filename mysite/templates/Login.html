@@ -1,0 +1,18 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="UTF-8">  
+    <h2>{{ the_title }}</h2>  <!--the_title为变量值，可修改-->
+    <link rel="stylesheet"  href="static/login.css"/>  <!--调用样式-->
+</head>  
+<body>  
+    <div id="login">  
+        <h1>Login</h1>  <!--title-->
+        <form method="post" action="/entry">    <!--执行命令-->
+            <input type="text" required="required" name="user"></input>  <!--输入文本框-->
+            <input type="text" required="required" name="mima"></input> <!--输入文本框-->
+            <button class="but" type="submit">欢迎登录</button>  <!--按钮功能--> 
+        </form>  
+    </div>  
+</body>  
+</html> 

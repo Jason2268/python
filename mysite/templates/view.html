@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+      <table border="1">  <!--Jinja2 模版-->
+      	<tr>
+      		{% for titleitem in the_titles  %}
+      		<td> {{ titleitem }} </td> 
+      		{% endfor %}
+      	</tr>
+      	{% for row in the_data%}
+      	<tr>
+      		{% for i in row %}
+      		<td>{{ i }}</td>
+      		{% endfor %}
+      	</tr>
+      	{% endfor %}
+      </table>
+
+	<form action="/entry">
+		<button type="submit">返回首页</button> <!--按钮功能-->
+	</form>
+
+</body>
+</html>
